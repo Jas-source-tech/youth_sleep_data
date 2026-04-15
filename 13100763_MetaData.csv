@@ -1,0 +1,105 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Health characteristics of children and youth aged 1 to 17 years, Canadian Health Survey on Children and Youth 2019",13100763,,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310076301",1;2;3,"CURRENT - a cube available to the public and that is current",Occasional,2019-01-01,2019-01-01,5
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,"Age group",,
+3,Sex,,
+4,Indicators,,
+5,Characteristics,18;19;20;21;22,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,3,
+1,"Newfoundland and Labrador",[10],2,1,,,
+1,"Prince Edward Island",[11],3,1,,,
+1,"Nova Scotia",[12],4,1,,,
+1,"New Brunswick",[13],5,1,,,
+1,Quebec,[24],6,1,,,
+1,Ontario,[35],7,1,,,
+1,Manitoba,[46],8,1,,,
+1,Saskatchewan,[47],9,1,,,
+1,Alberta,[48],10,1,,,
+1,"British Columbia",[59],11,1,,,
+1,"Territories ",[6],12,1,,,
+2,"Total, 1 to 17 years",,1,,,,
+2,"1 to 4 years",,2,1,,,
+2,"5 to 11 years",,3,5,,,
+2,"12 to 17 years",,4,5,,,
+2,"Total, 5 to 17 years",,5,1,,,
+3,"Both sexes",,1,,,,
+3,Males,,2,1,,,
+3,Females,,3,1,,,
+4,"Perceived health, very good or excellent",,1,,,4,
+4,"Perceived health, fair or poor",,2,,,4,
+4,"Perceived mental health, very good or excellent",,3,,,5,
+4,"Perceived mental health, fair or poor",,4,,,5,
+4,"Life satisfaction, satisfied or very satisfied (12 to 17 years old)
+",,5,,,6,
+4,Asthma,,6,,,7,
+4,Diabetes,,7,,,8,
+4,Epilepsy,,8,,,9,
+4,"Anxiety disorder (5 to 17 years old)",,9,,,10,
+4,"Mood disorder (5 to 17 years old)",,10,,,11,
+4,"Eating disorder (5 to 17 years old)",,11,,,12,
+4,"Learning disability or learning disorder (5 to 17 years old) ",,12,,,13,
+4,"Headache (5 to 17 years old) ",,13,,,14,
+4,"Stomach ache (5 to 17 years old) ",,14,,,15,
+4,"Backache (5 to 17 years old) ",,15,,,16,
+4,"Difficulties in getting to sleep (5 to 17 years old) ",,16,,,17,
+5,"Number of persons",,1,,,,
+5,"Low 95% confidence interval, number of persons",,2,,,,
+5,"High 95% confidence interval, number of persons",,3,,,,
+5,Percent,,4,,,,
+5,"Low 95% confidence interval, percent",,5,,,,
+5,"High 95% confidence interval, percent",,6,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+5233,"Canadian Health Survey on Children and Youth"
+
+"Subject Code","Subject Name"
+13,Health
+
+"Note ID",Note
+1,"Source: Statistics Canada, Canadian Health Survey on Children and Youth (CHSCY) 2019"
+2,"All estimates in this table are calculated excluding non-response categories (""not stated"") in the denominator."
+3,"The target population of the survey covers the population aged 1 to 17 as of January 31, 2019 living in the ten provinces and the three territories. Excluded from the survey's coverage are children and youth living on First Nation reserves and other Aboriginal settlements in the provinces, children and youth living in foster homes and the institutionalized population."
+4,"Heath Status of children and youth aged 1 to 17, reported by the person most knowledgeable in the household as being ""very good or excellent"" or ""fair or poor"", depending on the indicator. Perceived health refers to the perception of a person's health in general, either by the person himself or herself, or, in the case of proxy response, by the person responding. Health means not only the absence of disease or injury but also physical, mental and social well-being."
+5,"Mental health status of children and youth aged 1 to 17, reported by the person most knowledgeable in the household as being ""very good or excellent"" or ""fair or poor"", depending on the indicator. Perceived mental health refers to the perception of a person's mental health in general. Perceived mental health provides a general indication of the population suffering from some form of mental disorder, mental or emotional problems, or distress, not necessarily reflected in perceived health."
+6,"Youth aged 12 to 17 reported being satisfied or very satisfied with their life in general. Life satisfaction is based on a self-reported score from 0 to 10 for how respondents feel about their life as a whole at the moment. Satisfied or very satisfied represents those who indicated a value of 6 or more out of 10."
+7,"Children and youth aged 1 to 17 years of age who have been diagnosed by a health professional as having asthma, reported by the person most knowledgeable in the household."
+8,"Children and youth aged 1 to 17 years of age who have been diagnosed by a health professional as having diabetes, reported by the person most knowledgeable in the household."
+9,"Children and youth aged 1 to 17 years of age who have been diagnosed by a health professional as having epilespy, reported by the person most knowledgeable in the household."
+10,"Children and youth aged 5 to 17 years of age who have been diagnosed by a health professional as having an anxiety disorder, such as a phobia, obsessive-compulsive disorder or a panic disorder, reported by the person most knowledgeable in the household."
+11,"Children and youth aged 5 to 17 years of age who have been diagnosed by a health professional as having a mood disorder, such as depression, bipolar disorder, mania or dysthymia, reported by the person most knowledgeable in the household."
+12,"Children and youth aged 5 to 17 years of age who have been diagnosed by a health professional as having an eating disorder, such as anorexia nervosa or bulimia, reported by the person most knowledgeable in the household."
+13,"Children and youth aged 5 to 17 years of age who have been diagnosed by a health professional as having a learning disability or learning disorder, reported by the person most knowledgeable in the household."
+14,"Children and youth aged 5 to 17 years of age who had the headache once per week or more in the past 6 months, reported by the person most knowledgeable for children aged 5 to 11 years and self-reported by youth aged 12 to 17 years."
+15,"Children and youth aged 5 to 17 years of age who had the stomach ache once per week or more in the past 6 months, reported by the person most knowledgeable for children aged 5 to 11 years and self-reported by youth aged 12 to 17 years."
+16,"Children and youth aged 5 to 17 years of age who had the backache once per week or more in the past 6 months, reported by the person most knowledgeable for children aged 5 to 11 years and self-reported by youth aged 12 to 17 years."
+17,"Children and youth aged 5 to 17 years of age who had had difficulties in getting to sleep once per week or more in the past 6 months, reported by the person most knowledgeable for children aged 5 to 11 years and self-reported by youth aged 12 to 17 years."
+18,"The confidence interval illustrates the degree of variability associated with an estimate. Wide confidence intervals indicate high variability, thus, these estimates should be interpreted and used with due caution. When comparing estimates, it is important to use confidence intervals to determine if differences between values are statistically significant."
+19,"Bootstrapping techniques were used to produce the 95% confidence intervals (CIs)."
+20,"Data with a coefficient of variation (CV) greater than 35.0% or that did not meet the minimum sample size requirement are identified as (E) use with caution."
+21,"Data identified as (X) were suppressed to meet the confidentiality requirements of the Statistics Act."
+22,"All estimates were subject to rounding."
+
+"Correction ID","Correction Date","Correction Note"
+
+
